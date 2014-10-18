@@ -1,0 +1,26 @@
+{
+	"changegrade":{
+		"success":"1",
+		"data":
+		[
+			{
+				"classid":"123",
+				"classname":"计算机原理",
+				"classnum":"汪卫",
+				"avggrade":"3.0"
+			},
+			{
+				"classid":"123",
+				"classname":"计算机原理",
+				"classnum":"汪卫",
+				"avggrade":"3.0"
+			},
+			{
+				"classid":"123",
+				"classname":"计算机原理",
+				"classnum":"汪卫",
+				"avggrade":"3.0"
+			}
+		]
+	}
+}

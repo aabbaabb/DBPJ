@@ -1,0 +1,27 @@
+{
+	"searchrank":{
+		"success":"1",
+		"data":
+		[
+			{
+				"classname":"计算机原理",
+				"classteacher":"汪卫",
+				"rank":"1",
+				"avggrade":"4.0"
+			},
+			{
+				"classname":"数据库",
+				"classteacher":"汪卫",
+				"rank":"2",
+				"avggrade":"4.0"
+			},
+			{
+				"classname":"数据库",
+				"classteacher":"汪卫",
+				"rank":"1",
+				"avggrade":"4.0"
+			}
+		],
+		"termrank":"3"
+	}
+}

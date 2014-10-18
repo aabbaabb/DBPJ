@@ -1,0 +1,10 @@
+{
+	"user":{
+		"success":"1",
+		"data":{
+			"id":"11300240011",
+			"name":"dannyaabbaabb",
+			"authorization":"teacher"
+		}
+	}
+}

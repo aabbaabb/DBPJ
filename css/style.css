@@ -1,0 +1,314 @@
+body{
+		font-family:"Microsoft Yahei",Verdana;
+}
+.left{
+	float: left;
+	clear:right;
+}
+#login{
+	margin-top: 30px;
+}
+#login-img-bottom{
+	background-color: #0072c6;
+	color: white;
+	height: 100px;
+	padding-left: 20px;
+	padding-top: 20px;
+	font-family: 黑体;
+}
+#login-bottom-big{
+	font-size: 25px;
+	line-height: 35px;
+	margin-bottom: 10px;
+
+}
+#login-bottom-small{
+	font-size: 10px;
+}
+#login-img{
+	height: 380px;
+}
+#login-title{
+	color: #0072c6;
+	font-family: arial;
+	font-size: 32px;
+	margin-top: 60px;
+	margin-left: 20px;
+}
+#login-form{
+	margin-top: 40px;
+	margin-left: 20px;
+}
+#login-form input{
+	width: 300px;
+	height: 25px;
+	margin-top: 10px;
+	font-size: 14px;
+	border:rgb(186,186,186);
+	border-style: solid;
+	border-width: 1px;
+	padding-left: 9px;
+
+}
+.button{
+	font-family: 黑体;
+	margin-left: 20px;
+	background-color: #0072c6;
+	border: none;
+	color: white;
+	width: 90px;
+	height: 35px;
+	font-size: 15px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.button:hover{
+	background-color: #1e82cc;
+}
+.button:active{
+	background-color: black;
+}
+.cover{
+	position: absolute;
+	margin-top: -25px;
+	color: #666;
+	margin-left: 9px;
+}
+#register{
+	font-size: 14px;
+	margin-top: 200px;
+	margin-left: 20px;
+
+}
+#register a{
+	text-decoration: none;
+}
+#login-footer{
+	border-style: solid;
+	border-color: #cdcdcd;
+	border-top-width: 1px;
+	margin-top: 40px;
+	font-size: 12px;
+	padding-top: 10px;
+	color: #666;
+}
+#main-header{
+	height: 40px;
+	color: white;
+	background-color: #0072c6;
+}
+#main-logo{
+	font-size: 20px;
+	width: 140px;
+}
+#main-logo p{
+	float: left;
+}
+#main-logo img{
+	float: left;
+	height: 40px;
+}
+#account-display{
+	float: right;
+	font-size: 12px;
+	margin-right: 10px;
+}
+.main-header-icon{
+	line-height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+	font-size: 15px;
+}
+.main-header-icon:hover{
+	background-color:rgba(0,0,0,0.117647);
+}
+#main-left{
+	background-color: #f3f3f3;
+	height: 550px;
+}
+.left-icon{
+	color: #444;
+	font-size: 25px;
+	padding-left: 25px;
+	width:135px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 40px;
+
+}
+
+
+.left-sub-icon{
+	font-size: 14px;
+	line-height: 28px;
+	font-color:black;
+	padding-left: 25px;
+	cursor: pointer;
+}
+.left-sub-icon:hover{
+	background-color: #e7e7e7;
+}
+.left-sub-icon.stretch{
+	background-color: #d4d4d4;
+}
+.content li{
+	float: left;
+	width:700px;
+	margin-left: -80px;
+	padding-left: 80px;
+	cursor: pointer;
+}
+.content-click{
+	background-color: #0072c6;
+	color: white;
+}
+.content li:hover{
+	background-color:#e7e7e7;
+	color: black;
+}
+
+.content{
+	color: rgb(68,68,68);
+	line-height: 40px;
+	margin-top: 50px;
+	color: rgb(68,68,68);
+	font-size: 16px;
+}
+.intro{
+
+	display: block;
+	float: left;
+	min-width: 50px;
+}
+#change-inf-content .intro{
+		width: 80px;
+}
+#change-inf-button{
+	margin-left: 0px;
+}
+.content li div{
+	float: left;
+	margin-right: 20px;
+}
+.term span{
+	font-family: 华文新魏;
+	font-size: 22px;
+}
+.all-term{
+	font-family: 华文新魏;
+	font-size: 22px;
+}
+.all-term span{
+	margin-left: 40px;
+	background-color: white;
+	color:  rgb(68,68,68);
+	padding: 5px 10px 10px 5px;
+	cursor:pointer;
+}
+.all-term span:hover{
+	background-color: #0072c6;
+	color: white;
+}
+.all-term span.click{
+	background-color: #0072c6;
+	color: white;
+}
+.term .arrow{
+	font-weight: bold;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	cursor:pointer;
+	font-size: 26px;
+}
+.term .arrow:hover{
+	background-color: #0072c6;
+	color: white;
+
+
+}
+.term .arrow:active{
+	background-color:black;
+}
+#search-class-fd{
+	font-weight: bold;
+}
+.content div{
+	margin-right: 20px;
+}
+.search-inf-first{
+	float: left;
+}
+#search-inf,#change-grade-inf{
+	font-weight: bold;
+}
+
+.input input{
+	width: 30px;
+	color: rgb(68,68,68);
+	font-size: 16px;
+}
+.nameinput input{
+	width: 51px;
+}
+.idinput input{
+	width: 96px;
+}
+.name{
+	width: 55px;
+}
+.classname{
+	width:128px;
+}
+.id{
+	width: 100px;
+}
+.search-category{
+	color: rgb(68,68,68);
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: -5px;
+	margin-right: 5px;
+	float: left;
+
+}
+input{
+	color: rgb(68,68,68);
+	font-size: 16px;
+}
+.search{
+	float: left;
+	width: 700px;
+	margin-right: 0px;
+}
+.search input{
+	float: left;
+	width:51px;
+}
+.search-icon-wrap{
+	width: 23px;
+	height: 23px;
+	background-image: url("../img/search.png");
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 4px;
+}
+.search-icon-wrap:hover{
+	background-image: url("../img/search-hover.png");
+}
+.search-icon-wrap:active{
+	background-image: url("../img/search.png");
+}
+.back-button{
+	position: absolute;
+	margin-left: -40px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+.explanation{
+	font-size: 14px;
+	color: red;
+}
+.shortidinput input{
+	width: 40px;
+}

@@ -1,0 +1,25 @@
+{
+	"changeclass":{
+		"success":"1",
+		"data":
+		[
+			{
+				"studentid":"11300240011",
+				"studentname":"单昱",
+				"sex":"男"
+			},
+			{
+				"studentid":"11300240011",
+				"studentname":"单昱",
+				"sex":"男"
+			},
+			{
+				"studentid":"11300240011",
+				"studentname":"单昱",
+				"sex":"男"
+			}
+		],
+		"classteacher":"张萌",
+		"classid":"1124"
+	}
+}

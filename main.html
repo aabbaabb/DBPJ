@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>JWXT</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/960.css" media="all" />
+	<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+	<div class="container_16">
+		<div class="grid_16" id="main-header">
+			<div id="main-logo" class="main-header-icon left">
+				<img src="../img/icon.png" alt="" />
+				<p>FDU EAS</p>
+			</div>
+			<div id="main-header-icon-wrap">
+				<div class="main-header-icon left" id="add-icon">
+					<span>添加</span>
+				</div>
+				<div class="main-header-icon left" id="delete-icon">
+					<span>删除</span>
+				</div>
+				<div class="main-header-icon left" id="change-icon">
+					<span>修改</span>
+				</div>
+				<div class="main-header-icon left" id="save-icon">
+					<span>保存</span>
+				</div>
+			</div>
+			<div id="account-display" class="main-header-icon">
+				<span class="account-display-name"></span>
+				<span>&nbsp;</span>
+				<span class="account-display-title"></span>
+			</div>
+
+		</div>
+		<div class="grid_3" id="main-left">
+			<ul>
+				<li class="left-icon">
+					<p>查询信息</p>
+				</li>
+				<li id="left-sub">
+				<ul>
+					<li class="left-sub-icon" id="search-xk">查询选课信息</li>
+					<li class="left-sub-icon" id="search-grade">查询课程成绩</li>
+					<li class="left-sub-icon" id="search-rank">个人排名</li>
+					<li class="left-sub-icon" id="search-class">查询班级信息</li>
+					<li class="left-sub-icon" id="search-classgrade">查询学生成绩</li>
+				</ul>
+				</li>
+				<li class="left-icon" id="change-inf">
+					<p>修改信息</p>
+				</li>
+				
+
+				<ul>
+					<li class="left-sub-icon" id="change-user">修改个人信息</li>
+					<li class="left-sub-icon" id="change-grade">修改成绩</li>
+					<li class="left-sub-icon" id="change-class">修改学生</li>
+					<li class="left-sub-icon" id="change-student">修改学生</li>
+					<li class="left-sub-icon" id="change-teacher">修改教师</li>
+					<li class="left-sub-icon" id="change-classteacher">修改班级</li>
+					<li class="left-sub-icon" id="change-xk">修改选课</li>
+					<li class="left-sub-icon" id="change-sk">修改授课</li>
+					<li class="left-sub-icon" id="change-bj">修改班级学生</li>
+					
+				</ul>
+			<ul>
+		</div>
+		<div class="grid_12 prefix_1" id="main-right">
+			<div id="change-inf-content" class="content">
+				<ul>
+					<li><span class="change-inf-user account-display-id"></span><span>&nbsp&nbsp</span>
+						<span class="account-display-title"></span></li>
+					<li>
+						<span class="intro">用户名：</span>
+						<span><input type="text" id="change-account" /></span>
+					</li>
+					<li>
+						<span class="intro">密码：</span>
+						<span><input type="text" id="change-password"/></span>
+					</li>
+						
+				</ul>
+				<input type="button" class="button" id="change-inf-button" value="确定"/>
+			</div>
+			<div id="search-xk-content" class="content">
+				<div id="search-xk-term" class="term">
+					<span class="arrow left-arrow"><</span>
+					<span id="4026">2013年第一学期</span>
+					<span class="arrow right-arrow" >></span>
+				</div>
+				<ul>
+					
+				</ul>
+			</div>
+
+			<div id="search-grade-content" class="content">
+				<div id="search-grade-all" class="all-term">
+					<span>所有学期</span>
+				</div>
+				<div id="search-grade-term" class="term">
+					<span class="arrow left-arrow"><</span>
+					<span id="4026">2013年第一学期</span>
+					<span class="arrow right-arrow">></span>
+				</div>
+				<ul>
+					
+					
+						
+				</ul>
+			</div>
+
+
+			<div id="search-class-content" class="content">
+				<div class="search">
+					<select class="search-category">
+						<option value="姓名" selected="selected">姓名</option>
+						<option value="学号">学号</option>
+
+					</select>
+					<input type="text" />
+					<div class="search-icon-wrap">
+					</div>
+				</div>
+				<div id="search-inf">
+					<div class="search-inf-first">
+						<span>班级：</span>
+						<span id="class-id"></span>
+					</div>
+					<div>
+						<span>辅导员：</span>
+						<span id="class-teacher"></span>
+					</div>
+				</div>
+				<ul>
+					
+				</ul>
+			</div>
+			<div id="search-rank-content" class="content">
+				<div id="search-rank-all" class="all-term">
+					<span>所有学期</span>
+				</div>
+				<div id="search-rank-term" class="term">
+					<span class="arrow left-arrow"><</span>
+					<span id="4026">2013年第一学期</span>
+					<span class="arrow right-arrow">></span>
+				</div>
+				<ul>
+					<li>
+						<div>
+							<span class="intro" >总排名：</span>
+							<span class="intro" id="term-rank" ></span>
+						</div>
+
+					</li>
+					
+						
+				</ul>
+			</div>
+
+			<div id="search-class-grade" class="content">
+				<div id="search-class-grade-all" class="all-term">
+					<span>所有学期</span>
+				</div>
+				<div id="search-class-grade-term" class="term">
+					<span class="arrow left-arrow"><</span>
+					<span id="4026">2013年第一学期</span>
+					<span class="arrow right-arrow">></span>
+				</div>
+				<div id="search-inf">
+					<div class="search-inf-first">
+						<span class="intro" >最高成绩：</span>
+						<span class="intro" id="highestgrade" ></span>
+					</div>
+					<div>
+						<span class="intro" >成绩最高学生:</span>
+						<span class="intro" id="higheststudent"></span>
+					</div>
+				</div>
+				<ul>
+					
+						
+				</ul>
+			</div>
+			<div id="change-grade-content" class="content couldchange">
+				<div id="change-grade-all" class="all-term">
+					<span>所有学期</span>
+				</div>
+				<div id="search-grade-term" class="term">
+					<span class="arrow left-arrow"><</span>
+					<span id="4026">2013年第一学期</span>
+					<span class="arrow right-arrow">></span>
+				</div>
+				<ul>
+					
+						
+				</ul>
+			</div>
+			<div id="change-grade-detail" class="content couldchange">
+				<div id="change-grade-inf">
+					<div class="back-button">
+						<img src="../img/left.png" alt="" />
+					</div>
+					<div class="search-inf-first">
+						<span>课程名：</span>
+						<span class="classname"></span>
+					</div>
+					<div>
+						<span >选课人数：</span>
+						<span class="classnum"></span>
+					</div>
+				</div>
+				<ul>
+					
+					
+						
+				</ul>
+			</div>
+			<div id="change-class-content" class="content couldchange">
+				<div class="search">
+					<select class="search-category">
+						<option value="姓名" selected="selected">姓名</option>
+						<option value="学号">学号</option>
+
+					</select>
+					<input type="text" />
+					<div class="search-icon-wrap">
+					</div>
+				</div>
+				<div id="search-inf">
+						<div class="search-inf-first">
+							<span>班级：</span>
+							<span class="classid"></span>
+						</div>
+						<div>
+							<span>辅导员：</span>
+							<span class="classteacher"></span>
+						</div>
+				</div>
+				<ul>
+					
+						
+				</ul>
+			</div>
+			<div id="change-student-content" class="content couldchange">
+				<div class="search">
+					<select class="search-category">
+						<option value="姓名" selected="selected">姓名</option>
+						<option value="学号">学号</option>
+									
+					</select>
+					<input type="text" />
+					<div class="search-icon-wrap">
+					</div>
+				</div>
+				<div class="explanation">
+					由于内容实在是太多咯，网络君可能傲娇，因此请拜托使用搜索哦~~
+				</div>
+				<ul></ul>
+			</div>
+			<div id="change-teacher-content" class="content couldchange">
+				<div class="search">
+					<select class="search-category">
+						<option value="姓名" selected="selected">姓名</option>
+						<option value="学号">工号</option>
+									
+					</select>
+					<input type="text" />
+					<div class="search-icon-wrap">
+					</div>
+				</div>
+				<div class="explanation">
+					由于内容实在是太多咯，网络君可能傲娇，因此请拜托使用搜索哦~~
+				</div>
+				<ul></ul>
+			</div>
+			<div id="change-classteacher-content" class="content couldchange">
+				<div class="search">
+					<select class="search-category">
+						<option value="学号">班级号</option>
+						<option value="班主任名">班主任名</option>
+									
+					</select>
+					<input type="text" />
+					<div class="search-icon-wrap">
+					</div>
+				</div>
+				<div class="explanation">
+					由于内容实在是太多咯，网络君可能傲娇，因此请拜托使用搜索哦~~
+				</div>
+				<ul></ul>
+			</div>
+			<div id="change-xk-content" class="content couldchange">
+				<div class="search">
+					<select class="search-category">
+						<option value="学号">学号</option>
+						<option value="课程号">课程名</option>
+									
+					</select>
+					<input type="text" />
+					<div class="search-icon-wrap">
+					</div>
+				</div>
+				<div id="change-xk-all" class="all-term">
+					<span>所有学期</span>
+				</div>
+				<div id="change-xk-term" class="term">
+					<span class="arrow left-arrow"><</span>
+					<span id="4026">2013年第一学期</span>
+					<span class="arrow right-arrow">></span>
+				</div>
+				<div class="explanation">
+					由于内容实在是太多咯，网络君可能傲娇，因此请拜托使用搜索哦~~
+				</div>
+				<ul></ul>
+			</div>
+			<div id="change-sk-content" class="content couldchange">
+				<div class="search">
+					<select class="search-category">
+						<option value="工号">工号</option>
+						<option value="课程号">课程名</option>
+									
+					</select>
+					<input type="text" />
+					<div class="search-icon-wrap">
+					</div>
+				</div>
+				<div id="change-sk-all" class="all-term">
+					<span>所有学期</span>
+				</div>
+				<div id="change-sk-term" class="term">
+					<span class="arrow left-arrow"><</span>
+					<span id="4026">2013年第一学期</span>
+					<span class="arrow right-arrow">></span>
+				</div>
+				<div class="explanation">
+					由于内容实在是太多咯，网络君可能傲娇，因此请拜托使用搜索哦~~
+				</div>
+				<ul></ul>
+			</div>
+			<div id="change-bj-content" class="content couldchange">
+				<div class="search">
+					<select class="search-category">
+						<option value="工号">工号</option>
+						<option value="课程号">课程名</option>
+									
+					</select>
+					<input type="text" />
+					<div class="search-icon-wrap">
+					</div>
+				</div>
+				<div class="explanation">
+					由于内容实在是太多咯，网络君可能傲娇，因此请拜托使用搜索哦~~
+				</div>
+				<ul></ul>
+			</div>
+			
+			
+
+		</div>
+	</div>
+</body>

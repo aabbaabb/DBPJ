@@ -1,0 +1,22 @@
+{
+	"changexk":{
+		"success":"1",
+		"data":[
+			{
+				"studentid":"123456",
+				"classid":"123456",
+				"score":"90"
+			},
+			{
+				"studentid":"123456",
+				"classid":"123456",
+				"score":"90"
+			},
+			{
+				"studentid":"123456",
+				"classid":"123456",
+				"score":"90"
+			}
+		]
+	}
+}

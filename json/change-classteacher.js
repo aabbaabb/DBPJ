@@ -1,0 +1,12 @@
+{
+	"changeclassteacher":{
+		"success":"1",
+		"data":
+			[{
+				"classid":"1124",
+				"teacherid":"11300240011",
+				"teachername":"单昱",
+				"sex":"男"
+			}]
+	}
+}

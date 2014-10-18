@@ -1,0 +1,12 @@
+{
+	"gradeinf":{
+		"success":"1",
+		"data":
+			{
+				"studentid":"11300240011",
+				"studentname":"单昱",
+				"score":"80",
+				"grade":"B"
+			}
+	}
+}

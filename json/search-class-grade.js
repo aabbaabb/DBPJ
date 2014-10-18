@@ -1,0 +1,25 @@
+{
+	"searchclassgrade":{
+		"success":"1",
+		"data":
+		[
+			{
+				"studentid":"11300240011",
+				"studentname":"单昱",
+				"avgscore":"90"
+			},
+			{
+				"studentid":"11300240011",
+				"studentname":"单昱",
+				"avgscore":"90"
+			},
+			{
+				"studentid":"11300240011",
+				"studentname":"单昱",
+				"avgscore":"90"
+			}
+		],
+		"higheststudent":"单昱",
+		"highestgrade":"90"
+	}
+}

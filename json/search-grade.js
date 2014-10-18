@@ -1,0 +1,22 @@
+{
+	"searchgrade":{
+		"success":"1",
+		"data":[
+			{
+				"classname":"计算机原理",
+				"classteacher":"汪卫",
+				"grade":"A"
+			},
+			{
+				"classname":"数据库",
+				"classteacher":"汪卫",
+				"grade":"B"
+			},
+			{
+				"classname":"数据库",
+				"classteacher":"汪卫",
+				"grade":"A"
+			}
+		]
+	}
+}
